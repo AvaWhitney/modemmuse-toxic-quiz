@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
