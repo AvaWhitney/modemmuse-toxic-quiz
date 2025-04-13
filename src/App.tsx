@@ -6,7 +6,7 @@ function App() {
   return (
    
   
-      <main className="min-h-screen bg-pink-50 md:bg-cover bg-[45%_95%] text-gray-900" style={{ backgroundImage: "url('/toxic_bg_5.png')" }}>        
+      <main className="min-h-screen bg-pink-50 md:bg-cover bg-[45%_95%] text-gray-900" style={{ backgroundImage: "url('/toxic_bg_3.png')" }}>        
         <header>
         <HamburgerMenu />
       </header>

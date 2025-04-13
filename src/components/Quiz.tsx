@@ -56,7 +56,7 @@ const Quiz: React.FC = () => {
       <div className="max-w-xl mx-4 sm:mx-6 md:mx-auto mt-7 md:mt-5 p-6 rounded-2xl text-center">  
         <p className="text-black mb-6 text-xl">
         You’ll be choosing between cursed, slightly humiliating scenarios that will uncover the part of you your friends pretend not to notice.
-        Let’s find the toxic trait you’ve been passing off as ✨vibes✨.
+        Let’s find the toxic trait you’ve been passing off as ✨vibes✨
         </p>
         <button
           onClick={() => setHasStarted(true)}
@@ -91,7 +91,7 @@ const Quiz: React.FC = () => {
   return (
     <div 
       key={currentQuestion}
-      className="max-w-xl mx-2 sm:mx-4 md:mx-auto mt-5 p-4 sm:p-6 bg-white rounded-2xl shadow-lg">
+      className="max-w-xl mx-2 sm:mx-4 md:mx-auto mt-1 p-4 sm:p-6 bg-white rounded-2xl shadow-lg">
       <div className="mb-6">
         <h2 className="text-sm md:text-lg text-gray-500 mb-2">
           Question {currentQuestion + 1} of {questions.length}
@@ -109,7 +109,7 @@ const Quiz: React.FC = () => {
             }}
             
             
-            className="block w-full text-sm md:text-base text-left px-4 py-3 bg-pink-100 hover:bg-pink-200 rounded-xl text-gray-800 transition-all duration-200"
+            className="block w-full text-sm md:text-base text-left px-4 py-3 bg-sky-100 hover:bg-cyan-200 rounded-xl text-gray-800 transition-all duration-200"
           >
             {option.text}
           </button>
